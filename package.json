@@ -1,0 +1,21 @@
+{
+  "name": "requestheaderparser",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "6.12.2",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "express-useragent": "^1.0.8",
+    "ip": "^1.1.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  }
+}

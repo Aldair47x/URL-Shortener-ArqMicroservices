@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1.text-description-tittle1 API Basejump: Request Header Parser Microservice
+  p
+    span(class="text-description-tittle") Made by aldair47x ~ 
+
+  h1.text-description-tittle1 User story:
+  div.container-fluid
+    div.row
+      div.col-sm-6
+        p(class="text-description-tittle2")
+          span(class="text-red1") 1)
+          span  I can get the IP address, language and operating system for my browser.
+          br
+      
+  h1.text-description-tittle1 Example usage:
+  div.container-fluid
+    div.row
+      div.col-sm-6
+        code https://aldair47x-rhpm.herokuapp.com/api/whoami
+        
+  br
+  h1.text-description-tittle1 Example output:
+  div.container-fluid
+    div.row
+      div.col-sm-6
+        code { "ipadress": "YourCurrentIp", "language": "theBrowserLanguage", "OS": "YourOsBrowser" }
+

@@ -1,8 +1,8 @@
-<h1>Request Header Parser Microservice</h1>
+<h1>URL Shortener Microservice</h1>
 
 <h2>RESTful API</h2>
 
-<p>This is one of the API projects needed to attain the Back End Certificate at Free Code Camp.</p>
+<p>This is one of the exercise project practice for the class microservices architecture</p>
 
 
 ## Installing and Running
@@ -10,16 +10,19 @@
 1. Make sure that you have `node` and `npm` installed on your computer.
 2. Fork and clone this repo on your computer.
 3. `cd` into the root directory and run ` npm install`.
-4. Run `npm start` and point your browser to `localhost:3000`
+4. Run `npm start` and point your browser to `localhost:3000`.
 
-<h2>The Final Product! </h2>
 
-<p>This web application has been deployed to Heroku, and you can see it live here! https://aldair47x-rhpm.herokuapp.com/ </p>
-<br>
-<h1>Tips</h1>
-<br>
-<h2>Restarting the server</h2>
+<hr>
 
-<br>
 
-<p>When you make changes to any JavaScript files, you have to restart the server. Just press `ctrl + c` in the terminal to stop the server and `npm start` or `node ./bin/www` to start it up again. This process can get very tedious, so I highly recommend that you install Nodemon. This package will automatically restart your server every time you make changes to your JS files. All you have to do is run `sudo npm install -g nodemon` to install the package globally and then run `nodemon ./bin/www`. The package takes care of the rest!</p>
+## Authors
+
+* **Aldair Bernal** - *Full work* - [Aldair47x](https://github.com/Aldair47x)
+
+
+Follow me! – [aldair47x@Twitter](https://twitter.com/aldair47x) – aldair47x@gmail.com
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.

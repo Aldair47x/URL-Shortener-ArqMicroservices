@@ -1,29 +1,42 @@
 extends layout
 
 block content
-  h1.text-description-tittle1 API Basejump: Request Header Parser Microservice
+  h1.text-description-tittle1 API Basejump: URL Shortener Microservice
   p
     span(class="text-description-tittle") Made by aldair47x ~ 
+    
 
-  h1.text-description-tittle1 User story:
+  h1.text-description-tittle1 User stories:
   div.container-fluid
     div.row
-      div.col-sm-6
+      .col-sm-6
         p(class="text-description-tittle2")
           span(class="text-red1") 1)
-          span  I can get the IP address, language and operating system for my browser.
+          span  I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
           br
+          span(class="text-red1") 2)
+          span  If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
+          br
+          span(class="text-red1") 3)
+          span  When I visit that shortened URL, it will redirect me to my original link.
       
   h1.text-description-tittle1 Example usage:
   div.container-fluid
     div.row
-      div.col-sm-6
-        code https://aldair47x-rhpm.herokuapp.com/api/whoami
-        
+      .col-sm-8
+        code http://localhost:3000/new/https://www.google.com.co
+        br
+        code http://localhost:3000/new/https://www.youtube.com
   br
   h1.text-description-tittle1 Example output:
   div.container-fluid
     div.row
-      div.col-sm-6
-        code { "ipadress": "YourCurrentIp", "language": "theBrowserLanguage", "OS": "YourOsBrowser" }
+      .col-sm-6
+        code {"Source URL":"https://www.youtube.com","Final URL":"5557"}
+  br
+  h1.text-description-tittle1 How to use your final URL:
+  div.container-fluid
+    div.row
+      .col-sm-6
+        code http://localhost:3000/5557
 
